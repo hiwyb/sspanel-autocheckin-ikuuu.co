@@ -63,10 +63,10 @@ else
     fi
 fi
 
-wcdesp="站点: ${DOMAIN}"+$'\n\n'+"用户名: ${USERNAME}"+$'\n\n'+"${login_text}"+$'\n\n'+"${checkin_text}"+$'\n\n'
-# 企业微信推送给微信
-echo "企业微信开始推送了"
-echo $desp
-curl -G --data-urlencode "sendkey=wangyingbo" --data-urlencode "msg_type=text" --data-urlencode "to_user=WangYingBo" --data-urlencode "msg=${wcdesp}" 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan'
-push_text="[${date}] ${push_status}"
-echo ${push_text}
+# 企业微信推送给微信 sendkey=
+# wcdesp="站点: ${DOMAIN}"+$'\n\n'+"用户名: ${USERNAME}"+$'\n\n'+"${login_text}"+$'\n\n'+"${checkin_text}"+$'\n\n'
+# echo "企业微信开始推送了"
+# echo $desp
+# curl -G --data-urlencode "sendkey=xxx" --data-urlencode "msg_type=text" --data-urlencode "to_user=WangYingBo" --data-urlencode "msg=${wcdesp}" 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan'
+# push_text="[${date}] ${push_status}"
+# echo ${push_text}
